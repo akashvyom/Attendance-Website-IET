@@ -1,0 +1,6 @@
+.nameofstudent{cursor: pointer;}
+.nameofstudent:hover{background-color: #F9FDB0;}
+.att{text-align:center;}
+table tr td
+{font-variant: small-caps;}
+.hide{visibility: hidden;}

@@ -1,0 +1,48 @@
+
+<html>
+<head>
+<title>Attendance Portal</title>
+<link rel="stylesheet" type="text/css" href="css/layout.css" />
+<script src="js/callersend.js"></script>
+</head>
+<body>
+<div class="mainwrap">
+<div class="header">IET<span style="font-size:50px">Attendance Portal</span></div>
+<div class="menu" id="menu">
+<nav>
+<a href="default.php">Home</a>
+<a href="teacherlogin.php">Teacher's login </a>
+<a href="student.php">Student's login </a>
+<a href="school.php">School's login</a>
+<a href="contact.php">Contact Us  </a>
+<a href="about.php">About</a>
+<div class="cnus">
+<p>Call Us: </p>
+<p>90243536726</p>
+</div> 
+</nav>
+</div><div class="content">
+</div></div>
+<div class="footer">
+<div class="requestcall">
+<table  border="0">
+<tr>
+<td><b>Name: </b> </td>
+<td></b><input type="text" class="inputc" placeholder="Enter your name" id="callername" onkeyup="clearbutton()"/></td>
+</tr>
+<tr>
+<td><b>Contact Number:</b></td>
+<td><input type="tel" class="inputc" placeholder="Enter contact number" id="callernumber" onblur="checkinputnumber(this.value)"/></td>
+</tr>
+</table>
+<button onclick="sendcallerid()" id="callme">SendInfo</button>
+</div>
+
+
+
+
+
+</html>
+</div>
+</body>
+</html> 
